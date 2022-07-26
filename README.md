@@ -1,6 +1,10 @@
 # sfml_particle_simulation
 Quick and Dirty Particle Simulation using C++ and SFML.\
 This Simulation has neither meaning in physics nor is it efficient...but it looks cool
+\
+The radii are proportional to the mass of the particle, but the colors are arbitrary.
+The simulation might crash, if two or more particles share the same random starting position.
+But it is highly unlikely that this will happen often
 
 
 # How to use:
